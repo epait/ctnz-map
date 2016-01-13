@@ -1,5 +1,5 @@
 var map;
-var src = '../assets/maps/full-trail.kml';
+var src = 'http://ericpait.com/clients/nz-map/assets/maps/full-trail.kml';
 
 /**
  * Initializes the map and calls the function that creates polylines.

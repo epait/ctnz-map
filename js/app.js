@@ -1,25 +1,14 @@
-var map;
-var src = 'http://ericpait.com/clients/nz-map/assets/maps/full-trail.kml';
-
-/**
- * Initializes the map and calls the function that creates polylines.
- */
 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: new google.maps.LatLng(-41, 174),
+  var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 6,
-    mapTypeId: google.maps.MapTypeId.TERRAIN
+    center: {lat: -41, lng: 174}
   });
-  loadKmlLayer(src, map);
-}
+  console.log('map loaded');
 
-/**
- * Adds a KMLLayer based on the URL passed. 
- */
-function loadKmlLayer(src, map) {
-  var kmlLayer = new google.maps.KmlLayer(src, {
+  var ctaLayer = new google.maps.KmlLayer({
+    url: 'http://www.ericpait.com/clients/nz-map/assets/maps/full-trail.kmz',
     suppressInfoWindows: true,
-    preserveViewport: false,
     map: map
   });
+  console.log('kml loaded');
 }

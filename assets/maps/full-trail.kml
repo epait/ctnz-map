@@ -4,19 +4,19 @@
 	<name>Te Araroa Trail</name>
 	<Style id="past">
 		<LineStyle>
-			<color>ff69e2aa</color>
+			<color>ff27C47A</color>
 			<width>2.5</width>
 		</LineStyle>
 	</Style>
 	<Style id="current">
 		<LineStyle>
-			<color>ff26c47a</color>
+			<color>ff1A8452</color>
 			<width>2.5</width>
 		</LineStyle>
 	</Style>
 	<Style id="future">
 		<LineStyle>
-			<color>ff111111</color>
+			<color>ffaaaaaa</color>
 			<width>2.5</width>
 		</LineStyle>
 	</Style>

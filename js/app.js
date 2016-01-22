@@ -236,7 +236,7 @@ function initStoryPopover(map, marker, heading, excerpt, tnail) {
 	document.getElementById('map').innerHTML += contentString;
 
 	marker.addListener('mouseover', function() {
-		closePopovers()
+		hideClass('popoverWrapper');
 		var popover = document.getElementById(heading.split(' ').join('-'));
 		popover.style.left = '15%';
 		popover.style.top = '50px';
@@ -244,10 +244,16 @@ function initStoryPopover(map, marker, heading, excerpt, tnail) {
 	});
 }
 
-function closePopovers() {
-	var popovers = document.getElementsByClassName('popoverWrapper');
+function hideClass(c) {
+	var e = document.getElementsByClassName(c);
+	for (i = 0; i < e.length; i++) {
+		e[i].style.display = 'none';
+	}
+}
 
-	for (i = 0; i < popovers.length; i++) {
-		popovers[i].style.display = 'none';
+function showClass(c) {
+	var e = document.getElementsByClassName(c);
+	for (i = 0; i < e.length; i++) {
+		e[i].style.display = 'block';
 	}
 }

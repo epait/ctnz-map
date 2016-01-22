@@ -219,16 +219,35 @@ function initMap() {
 		icon: markerImage
 	});
 
-	initStoryPopover(marker, stories[i].heading, stories[i].excerpt, stories[i].tnail);
+	initStoryPopover(map, marker, stories[i].heading, stories[i].excerpt, stories[i].tnail);
   }
 }
 
 
 // event listeners
-function initStoryPopover(marker, heading, excerpt, tnail) {
-	marker.addListener('click', function() {
-		console.log("Heading: " + heading);
-		console.log("Excerpt: " + excerpt.substring(0,250) + "...");
-		console.log("Tnail: " + tnail);
+function initStoryPopover(map, marker, heading, excerpt, tnail) {
+	var contentString = '<div class="popoverWrapper" id="' + heading.split(' ').join('-') + '">' +
+		'<div class="popoverTnail"><img src="' + tnail + '"></div>' +
+		'<div class="popoverHeading">' + heading + '</div>' +
+		'<div class="popoverExcerpt">' + excerpt.substring(0,250) + '...</div>' +
+		'<div class="popoverReadMore"><a href="">Read More</a></div>' +
+		'</div>'
+
+	document.getElementById('map').innerHTML += contentString;
+
+	marker.addListener('mouseover', function() {
+		closePopovers()
+		var popover = document.getElementById(heading.split(' ').join('-'));
+		popover.style.left = '15%';
+		popover.style.top = '50px';
+		popover.style.display = 'block';
 	});
+}
+
+function closePopovers() {
+	var popovers = document.getElementsByClassName('popoverWrapper');
+
+	for (i = 0; i < popovers.length; i++) {
+		popovers[i].style.display = 'none';
+	}
 }

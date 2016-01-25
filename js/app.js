@@ -218,13 +218,13 @@ function initMap() {
 		map: map,
 		icon: markerImage
 	});
-	initStoryPopover(map, marker, stories[i].heading, stories[i].excerpt, stories[i].tnail);
+
+	createInfoWindow(map, marker, stories[i].heading, stories[i].excerpt, stories[i].tnail);
+	// initStoryPopover(map, marker, stories[i].heading, stories[i].excerpt, stories[i].tnail);
   }
 }
 
-
-// event listeners
-function initStoryPopover(map, marker, heading, excerpt, tnail) {
+function createInfoWindow(map, marker, heading, excerpt, tnail) {
 	var contentString = '<div class="popoverWrapper" id="' + heading.split(' ').join('-') + '">' +
 		'<div class="popoverTnail"><img src="' + tnail + '"></div>' +
 		'<div class="popoverHeading">' + heading + '</div>' +
@@ -232,53 +232,11 @@ function initStoryPopover(map, marker, heading, excerpt, tnail) {
 		'<div class="popoverReadMore"><a href="">Read More</a></div>' +
 		'</div>'
 
-	document.getElementById('map').innerHTML += contentString;
-
-	var canvas = document.getElementById("map");
+	var infowindow = new google.maps.InfoWindow({
+    	content: contentString
+	});
 
 	marker.addListener('click', function() {
-		hideClass('popoverWrapper');
-		map.panTo(marker.getPosition());
-		
-		var x = new Number();
-    	var y = new Number();
-    	var popover = document.getElementById(heading.split(' ').join('-'));
-
-    	if (event.x != undefined && event.y != undefined) {
-    	    x = event.x;
-    	    y = event.y;
-    	} else {
-    	    x = event.clientX + document.body.scrollLeft +
-    	          document.documentElement.scrollLeft;
-    	    y = event.clientY + document.body.scrollTop +
-    	          document.documentElement.scrollTop;
-    	}
-
-    	x -= canvas.offsetLeft;
-    	y -= canvas.offsetTop;
-
-		popover.style.left = x + 'px';
-		popover.style.top = y + 'px';
-		popover.style.display = 'block';
+	    infowindow.open(map, marker);
 	});
-}
-
-function hideClass(c) {
-	var e = document.getElementsByClassName(c);
-	for (i = 0; i < e.length; i++) {
-		e[i].style.display = 'none';
-	}
-}
-
-function showClass(c) {
-	var e = document.getElementsByClassName(c);
-	for (i = 0; i < e.length; i++) {
-		e[i].style.display = 'block';
-	}
-}
-
-function positionPopover(event, location) {
-    
-
-    alert("x: " + x + "  y: " + y);
 }

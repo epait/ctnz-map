@@ -3,13 +3,29 @@
 
 html, body { height: 100%; margin: 0; padding: 0; font-family: "Open Sans";}
 
-#map { height: 500px; }
+#map { height: 1000px; }
 
 .popoverWrapper {
 	width: 350px;
 	height: 400px;
 
 	background: #ffffff;
+	/*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);*/
+}
+
+.custom-iw {
+	width: 350px !important;
+	height: 400px !important;
+}
+
+.gm-style-iw {
+   width: 350px !important;
+   top: 0 !important;
+   left: 0 !important;
+   background-color: #fff;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+   /*border: 1px solid rgba(72, 181, 233, 0.6);*/
+   /*border-radius: 2px 2px 0 0;*/
 }
 
 .popoverTnail {

@@ -211,6 +211,10 @@ function initMap() {
   	scaledSize: new google.maps.Size(45,45)
   };
 
+  var infowindow = new google.maps.InfoWindow({
+     content: ' '
+  });
+
   for (i = 0; i < stories.length; i++) {
   	myLatLng = new google.maps.LatLng(stories[i].lat,stories[i].lng);
 	var marker = new google.maps.Marker({
@@ -219,24 +223,68 @@ function initMap() {
 		icon: markerImage
 	});
 
-	createInfoWindow(map, marker, stories[i].heading, stories[i].excerpt, stories[i].tnail);
-	// initStoryPopover(map, marker, stories[i].heading, stories[i].excerpt, stories[i].tnail);
+	createInfoWindow(map, marker, infowindow, stories[i].heading, stories[i].excerpt, stories[i].tnail);
   }
 }
 
-function createInfoWindow(map, marker, heading, excerpt, tnail) {
+function createInfoWindow(map, marker, infowindow, heading, excerpt, tnail) {
 	var contentString = '<div class="popoverWrapper" id="' + heading.split(' ').join('-') + '">' +
 		'<div class="popoverTnail"><img src="' + tnail + '"></div>' +
 		'<div class="popoverHeading">' + heading + '</div>' +
 		'<div class="popoverExcerpt">' + excerpt.substring(0,250) + '...</div>' +
 		'<div class="popoverReadMore"><a href="">Read More</a></div>' +
-		'</div>'
+		'</div>'	
 
-	var infowindow = new google.maps.InfoWindow({
-    	content: contentString
+	marker.addListener('mouseover', function() {
+		infowindow.setContent(contentString);
+	    infowindow.open(map, marker);
 	});
 
-	marker.addListener('click', function() {
-	    infowindow.open(map, marker);
+	// marker.addListener('mouseout', function() {
+	//     infowindow.close(map, marker);
+	// });
+
+	/*
+	 * The google.maps.event.addListener() event waits for
+	 * the creation of the infowindow HTML structure 'domready'
+	 * and before the opening of the infowindow defined styles
+	 * are applied.
+	 */
+	google.maps.event.addListener(infowindow, 'domready', function() {
+
+	   // Reference to the DIV which receives the contents of the infowindow using jQuery
+	   var iwOuter = $('.gm-style-iw');
+
+	   iwOuter.parent().addClass('custom-iw');
+
+	   /* The DIV we want to change is above the .gm-style-iw DIV.
+	    * So, we use jQuery and create a iwBackground variable,
+	    * and took advantage of the existing reference to .gm-style-iw for the previous DIV with .prev().
+	    */
+	   var iwBackground = iwOuter.prev();
+
+	   // Remove the background shadow DIV
+	   iwBackground.children(':nth-child(2)').css({'display' : 'none'});
+
+	   // Remove the white background DIV
+	   iwBackground.children(':nth-child(4)').css({'display' : 'none'});
+
+	   // Moves the infowindow to the right.
+	   iwOuter.parent().parent().css({left: '-260px'});
+
+	   // Moves the infowindow down.
+	   iwOuter.parent().parent().css({top: '240px'});
+
+	   // Hides arrow
+	   iwBackground.children(':nth-child(3)').hide();
+	   iwBackground.children(':nth-child(1)').hide();
+
+	   // Moves the infowindow down.
+	   // iwOuter.parent().parent().css({top: '225px'});
+
+	   var iwCloseBtn = iwOuter.next();
+
+	   // hide close button
+	   iwCloseBtn.hide();
 	});
 }

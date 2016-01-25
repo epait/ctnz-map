@@ -78,13 +78,23 @@
 
         <?php query_posts('posts_per_page=5&cat=1'); ?>
         <?php if (have_posts()) : ?>
-        <?php while (have_posts()) : the_post(); ?>    
-            <div class="post">
-                        <div class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-                        <div class="post-author">By <a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php the_author_meta('display_name'); ?></a> on  <?php the_time(get_option('date_format')); ?></div>
-                        <div class="excerpt"><?php the_excerpt(); ?></div>
-                        <a class="black_arrow" href="<?php the_permalink(); ?>">READ MORE</a>
-            </div> 
+        <?php while (have_posts()) : the_post(); ?>
+            <?php
+              $myExcerpt = get_the_excerpt();
+              $tags = array("<p>", "</p>");
+              $myExcerpt = str_replace($tags, "", $myExcerpt);
+              // echo $myExcerpt;
+
+              $post_thumbnail_id = get_post_thumbnail_id($post->ID);
+              $post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id );
+              // echo $post_thumbnail_url;
+            ?>
+            <?php echo '<script>' ?>
+            <?php echo 'console.log("' , $post_thumbnail_url , '"); ' ?>
+            <?php echo 'console.log("' , the_title() , '"); ' ?> 
+            <?php echo 'console.log("' , $myExcerpt , '");' ?>
+            <?php echo 'console.log(" ");' ?>
+            <?php echo '</script>' ?>    
         <?php endwhile; ?>
         <?php endif; ?>
 

@@ -218,7 +218,6 @@ function initMap() {
 		map: map,
 		icon: markerImage
 	});
-
 	initStoryPopover(map, marker, stories[i].heading, stories[i].excerpt, stories[i].tnail);
   }
 }
@@ -235,13 +234,32 @@ function initStoryPopover(map, marker, heading, excerpt, tnail) {
 
 	document.getElementById('map').innerHTML += contentString;
 
+	var canvas = document.getElementById("map");
+
 	marker.addListener('click', function() {
 		hideClass('popoverWrapper');
-		var popover = document.getElementById(heading.split(' ').join('-'));
-		popover.style.left = '15%';
-		popover.style.top = '50px';
-		popover.style.display = 'block';
 		map.panTo(marker.getPosition());
+		
+		var x = new Number();
+    	var y = new Number();
+    	var popover = document.getElementById(heading.split(' ').join('-'));
+
+    	if (event.x != undefined && event.y != undefined) {
+    	    x = event.x;
+    	    y = event.y;
+    	} else {
+    	    x = event.clientX + document.body.scrollLeft +
+    	          document.documentElement.scrollLeft;
+    	    y = event.clientY + document.body.scrollTop +
+    	          document.documentElement.scrollTop;
+    	}
+
+    	x -= canvas.offsetLeft;
+    	y -= canvas.offsetTop;
+
+		popover.style.left = x + 'px';
+		popover.style.top = y + 'px';
+		popover.style.display = 'block';
 	});
 }
 
@@ -257,4 +275,10 @@ function showClass(c) {
 	for (i = 0; i < e.length; i++) {
 		e[i].style.display = 'block';
 	}
+}
+
+function positionPopover(event, location) {
+    
+
+    alert("x: " + x + "  y: " + y);
 }

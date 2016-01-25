@@ -163,51 +163,61 @@
             var regions = [
                 {
                     region: "Northland",
+                    mapFile: "",
                     lat: -35.312818, 
                     lng: 174.120425
                 },
                 {
                     region: "Auckland",
+                    mapFile: "",
                     lat: -36.661662, 
                     lng: 174.729893
                 },
                 {
                     region: "Waikato/King Country",
+                    mapFile: "",
                     lat: -38.342415, 
                     lng: 175.180517
                 },
                 {
                     region: "Whanganui",
+                    mapFile: "",
                     lat: -39.480183,
                     lng: 175.042876,
                 },
                 {
                     region: "Manawatu",
+                    mapFile: "",
                     lat: -40.347577, 
                     lng: 175.661774
                 },
                 {
                     region: "Wellington",
+                    mapFile: "",
                     lat: -40.877625, 
                     lng: 175.132276
                 },
                 {
                     region: "Nelson/Marlborough",
+                    mapFile: "",
                     lat: -41.158708, 
                     lng: 174.811306
                 },
                 {
                     region: "Canterbury",
+                    mapFile: "",
                     lat: -43.318859, 
                     lng: 171.385248
                 },
                 {
                     region: "Otago",
+                    mapFile: "",
                     lat: -44.672289, 
                     lng: 169.010526
                 },
                 {
                     region: "Southland",
+                    mapFile: "",
                     lat: -45.54547200000001, 
                     lng: 167.935174
                 }

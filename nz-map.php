@@ -13,7 +13,65 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/app.css">
+        <style type="text/css" media="screen">
+            @import url(https://fonts.googleapis.com/css?family=Poppins);
+            @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+            html, body { height: 100%; margin: 0; padding: 0; font-family: "Open Sans";}
+
+            #map { height: 1000px; }
+
+            .popoverWrapper {
+                width: 350px;
+                height: 400px;
+
+                background: #ffffff;
+                /*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);*/
+            }
+
+            .custom-iw {
+                width: 350px !important;
+                height: 400px !important;
+            }
+
+            .gm-style-iw {
+               width: 350px !important;
+               top: 0 !important;
+               left: 0 !important;
+               background-color: #fff;
+               box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+               /*border: 1px solid rgba(72, 181, 233, 0.6);*/
+               /*border-radius: 2px 2px 0 0;*/
+            }
+
+            .popoverTnail {
+                height: 200px;
+            }
+
+            .popoverTnail img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .popoverHeading {
+                padding: 15px 15px 0 15px;
+
+                font-size: 18px;
+                font-weight: bold;
+                font-family: "Poppins";
+            }
+
+            .popoverExcerpt {
+                padding: 10px 15px 15px 15px;
+
+                font-size: 13px;
+            }
+
+            .popoverReadMore {
+                padding: 0 0 15px 15px;
+                font-size: 13px;
+            }    
+        </style>
     </head>
     <body>
         <div id="map"></div>

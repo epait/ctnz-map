@@ -78,24 +78,25 @@
 
         <?php query_posts('posts_per_page=5&cat=1'); ?>
         <?php if (have_posts()) : ?>
+        <?php echo '<script> var stories = ['?>
         <?php while (have_posts()) : the_post(); ?>
             <?php
               $myExcerpt = get_the_excerpt();
               $tags = array("<p>", "</p>");
               $myExcerpt = str_replace($tags, "", $myExcerpt);
-              // echo $myExcerpt;
 
               $post_thumbnail_id = get_post_thumbnail_id($post->ID);
               $post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id );
-              // echo $post_thumbnail_url;
             ?>
-            <?php echo '<script>' ?>
-            <?php echo 'console.log("' , $post_thumbnail_url , '"); ' ?>
-            <?php echo 'console.log("' , the_title() , '"); ' ?> 
-            <?php echo 'console.log("' , $myExcerpt , '");' ?>
-            <?php echo 'console.log(" ");' ?>
-            <?php echo '</script>' ?>    
+            <?php echo '{' ?>
+            <?php echo 'tnail: "' , $post_thumbnail_url , '",' ?>
+            <?php echo 'heading: "' , the_title() , '",' ?> 
+            <?php echo 'excerpt: "' , $myExcerpt, '",' ?>
+            <?php echo 'lat: 0,' ?>
+            <?php echo 'lng: 0,' ?>
+            <?php echo '},' ?>
         <?php endwhile; ?>
+        <?php echo ']; </script>' ?>  
         <?php endif; ?>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -203,78 +204,78 @@
                 }
             ];
 
-            var stories = [
-                {
-                    heading: "In the storm",
-                    excerpt: "Over the past week we’ve trekked some 200ks (120 miles). Eric and I started out 40ks behind the crew after the holiday and had to hustle to catch up. Most of time we had great weather, it was why we were able to make such good time. Being that it’s an island, the weather in New Zealand is almost always changing. You expect that any given day it’s going to be rainy, cloudy and/or brutally sunny. But occasionally like on our 6th day into this last stretch of the trail we find ourselves in the middle of a storm.",
-                    tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2016/01/storm.jpg",
-                    lat: -35.312818, 
-                    lng: 174.120425
-                },
-                {
-                    heading: "What a Year",
-                    excerpt: "The last week of 2015 was symbolic of what the entire year was for me. Full of new experiences in new places. My 2015 adventure started when I moved to Australia on January 14th. I spent 7 months there traveling and working. Then I moved back to the States for September and October to see family, friends, and begin working for Comfort Theory. In November I moved to New Zealand to begin this crazy adventure. Here is a look at how our last week of 2015 went.",
-                    tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2016/01/whatayear.jpg",
-                    lat: -36.661662, 
-                    lng: 174.729893
-                },
-                {
-                    heading: "Another Christmas in New Zealand",
-                    excerpt: "Doesn’t seem like too long ago that my cousin Erik, whom I had previously met 3 times, invited me to come stay with him and his family in New Zealand. At the time I was couch surfing in the small town of Moerzeke, Belgium trying to recover from a fever and terrible throat infection. In my recovery slumber I decided to take the jump and buy a ticket to New Zealand. I arrived just before Christmas and had my first holidays away from my family.",
-                    tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2016/01/image-1.jpg",
-                    lat: -38.342415, 
-                    lng: 175.180517
-                },
-                {
-                    heading: "My Te Araroa Anthem (So Far)",
-                    excerpt: "It’s a familiar holiday in an unfamiliar hemisphere, and I take a long look around me. Four guys that were previously friends, or even just merely acquaintances, have become my family. I’m surrounded by my dream country, the island adventureland that used to scream my name every time I twirled a globe or unrolled a world atlas, magnetiziing me to it’s ocean-encompassed existence. The lush forest is behind me, roaring sea beside me, and a world of possibility in front of me among this group of former 9to5-ers gone fearless explorers.",
-                    tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/12/image-2.jpg",
-                    lat: -39.480183,
-                    lng: 175.042876,
-                },
-                {
-                    heading: "Team Becoming Family",
-                    excerpt: "Month 1 is done. And what an incredible month it was. As I sit here in a pub at the base of Mt. Eden in Aukland, NZ sipping on a cold cider I am trying to wrap my brain around the world wind of adventure that just took place. Aukland is where this crazy New Zealand trip began, and here I am 600 kilometers later right back where it all started. I am 15 pounds lighter, full of facial hair, and unmeasurably more self confident in my physical and mental endurance. If I left Seattle walking south I would have passed Bend, Oregon 50 miles ago. ",
-                    tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/12/img-1.jpg",
-                    lat: -40.347577, 
-                    lng: 175.661774
-                },
-                {
-                    heading: "No Rules",
-                    excerpt: "What the hell is a thru-hike? I’ve lost count of how many times I’ve been asked that question, or been given the puzzled head tilt and eyebrow scrunch that begs the question in a glorious nonverbal fashion. The more I’ve been asked this question, the more I start asking myself if I really do know the answer.",
-                    tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/12/image-5-1.jpg",
-                    lat: -40.877625, 
-                    lng: 175.132276
-                },
-                {
-                    heading: "The Beginning",
-                    excerpt: "Two years ago I sat at my computer in San Diego, hungry for adventure. I had just gotten off the phone with one of my best friends, Filipe DeAndrade, who would later become my co-founder of Comfort Theory. Fil wouldn’t stop talking about his latest thru-hike on the Appalachian Trail. He spoke of personal discovery, transformation, and a mental, physical, and spiritual tipping point that he had reached out on the trail. He spoke of the boundaries he pushed, the fearless humans he connected with, and the new mindset he approached life with after his journey.",
-                    tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/11/NZ_Header-3.jpg",
-                    lat: -41.158708, 
-                    lng: 174.811306
-                },
-                {
-                    heading: "Ups & Downs",
-                    excerpt: "90 Mile beach was a crazy way to start my career as a hiker. 5 straight days of beach walking with scarce fresh water sources and grueling sun exposure. When we finished stage one our team concluded that we in fact did not like “long walks on the beach.” We spent a day surfing in Ahipara and then headed in to Herekino Forest ready for some new scenery…and the challenge of bush walking.",
-                    tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/12/image-6.jpg",
-                    lat: -43.318859, 
-                    lng: 171.385248
-                },
-                {
-                    heading: "Muddy Nirvana",
-                    excerpt: "\“Every single day something amazing happens.\” We’re in KeriKeri, our second resupply. The coffee is strong, but the memories are stronger. In just 5 days New Zealand has made its mark on our souls. We all knew this trip would be something truly extraordinary, but no one expected such monumental experiences to happen this quickly. Each day we witness the magic of this country that is quickly becoming our home.",
-                    tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/11/image-4.jpg",
-                    lat: -44.672289, 
-                    lng: 169.010526
-                },
-                {
-                    heading: "The Never Ending Beach",
-                    excerpt: "We did it. The first stretch of the Te Araroa (pernounced Tee-Ah-Ray-Roh-Rah) gives a sublime first impression- the sweeping views as you make it past the famous lighthouse at Cape Reinga, walking down a jagged staircase that lines the bluff to reveal a sweeping ocean…",
-                    tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/11/image-3.jpg",
-                    lat: -45.54547200000001, 
-                    lng: 167.935174
-                }
-            ];
+            // var stories = [
+            //     {
+            //         heading: "In the storm",
+            //         excerpt: "Over the past week we’ve trekked some 200ks (120 miles). Eric and I started out 40ks behind the crew after the holiday and had to hustle to catch up. Most of time we had great weather, it was why we were able to make such good time. Being that it’s an island, the weather in New Zealand is almost always changing. You expect that any given day it’s going to be rainy, cloudy and/or brutally sunny. But occasionally like on our 6th day into this last stretch of the trail we find ourselves in the middle of a storm.",
+            //         tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2016/01/storm.jpg",
+            //         lat: -35.312818, 
+            //         lng: 174.120425
+            //     },
+            //     {
+            //         heading: "What a Year",
+            //         excerpt: "The last week of 2015 was symbolic of what the entire year was for me. Full of new experiences in new places. My 2015 adventure started when I moved to Australia on January 14th. I spent 7 months there traveling and working. Then I moved back to the States for September and October to see family, friends, and begin working for Comfort Theory. In November I moved to New Zealand to begin this crazy adventure. Here is a look at how our last week of 2015 went.",
+            //         tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2016/01/whatayear.jpg",
+            //         lat: -36.661662, 
+            //         lng: 174.729893
+            //     },
+            //     {
+            //         heading: "Another Christmas in New Zealand",
+            //         excerpt: "Doesn’t seem like too long ago that my cousin Erik, whom I had previously met 3 times, invited me to come stay with him and his family in New Zealand. At the time I was couch surfing in the small town of Moerzeke, Belgium trying to recover from a fever and terrible throat infection. In my recovery slumber I decided to take the jump and buy a ticket to New Zealand. I arrived just before Christmas and had my first holidays away from my family.",
+            //         tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2016/01/image-1.jpg",
+            //         lat: -38.342415, 
+            //         lng: 175.180517
+            //     },
+            //     {
+            //         heading: "My Te Araroa Anthem (So Far)",
+            //         excerpt: "It’s a familiar holiday in an unfamiliar hemisphere, and I take a long look around me. Four guys that were previously friends, or even just merely acquaintances, have become my family. I’m surrounded by my dream country, the island adventureland that used to scream my name every time I twirled a globe or unrolled a world atlas, magnetiziing me to it’s ocean-encompassed existence. The lush forest is behind me, roaring sea beside me, and a world of possibility in front of me among this group of former 9to5-ers gone fearless explorers.",
+            //         tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/12/image-2.jpg",
+            //         lat: -39.480183,
+            //         lng: 175.042876,
+            //     },
+            //     {
+            //         heading: "Team Becoming Family",
+            //         excerpt: "Month 1 is done. And what an incredible month it was. As I sit here in a pub at the base of Mt. Eden in Aukland, NZ sipping on a cold cider I am trying to wrap my brain around the world wind of adventure that just took place. Aukland is where this crazy New Zealand trip began, and here I am 600 kilometers later right back where it all started. I am 15 pounds lighter, full of facial hair, and unmeasurably more self confident in my physical and mental endurance. If I left Seattle walking south I would have passed Bend, Oregon 50 miles ago. ",
+            //         tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/12/img-1.jpg",
+            //         lat: -40.347577, 
+            //         lng: 175.661774
+            //     },
+            //     {
+            //         heading: "No Rules",
+            //         excerpt: "What the hell is a thru-hike? I’ve lost count of how many times I’ve been asked that question, or been given the puzzled head tilt and eyebrow scrunch that begs the question in a glorious nonverbal fashion. The more I’ve been asked this question, the more I start asking myself if I really do know the answer.",
+            //         tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/12/image-5-1.jpg",
+            //         lat: -40.877625, 
+            //         lng: 175.132276
+            //     },
+            //     {
+            //         heading: "The Beginning",
+            //         excerpt: "Two years ago I sat at my computer in San Diego, hungry for adventure. I had just gotten off the phone with one of my best friends, Filipe DeAndrade, who would later become my co-founder of Comfort Theory. Fil wouldn’t stop talking about his latest thru-hike on the Appalachian Trail. He spoke of personal discovery, transformation, and a mental, physical, and spiritual tipping point that he had reached out on the trail. He spoke of the boundaries he pushed, the fearless humans he connected with, and the new mindset he approached life with after his journey.",
+            //         tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/11/NZ_Header-3.jpg",
+            //         lat: -41.158708, 
+            //         lng: 174.811306
+            //     },
+            //     {
+            //         heading: "Ups & Downs",
+            //         excerpt: "90 Mile beach was a crazy way to start my career as a hiker. 5 straight days of beach walking with scarce fresh water sources and grueling sun exposure. When we finished stage one our team concluded that we in fact did not like “long walks on the beach.” We spent a day surfing in Ahipara and then headed in to Herekino Forest ready for some new scenery…and the challenge of bush walking.",
+            //         tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/12/image-6.jpg",
+            //         lat: -43.318859, 
+            //         lng: 171.385248
+            //     },
+            //     {
+            //         heading: "Muddy Nirvana",
+            //         excerpt: "\“Every single day something amazing happens.\” We’re in KeriKeri, our second resupply. The coffee is strong, but the memories are stronger. In just 5 days New Zealand has made its mark on our souls. We all knew this trip would be something truly extraordinary, but no one expected such monumental experiences to happen this quickly. Each day we witness the magic of this country that is quickly becoming our home.",
+            //         tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/11/image-4.jpg",
+            //         lat: -44.672289, 
+            //         lng: 169.010526
+            //     },
+            //     {
+            //         heading: "The Never Ending Beach",
+            //         excerpt: "We did it. The first stretch of the Te Araroa (pernounced Tee-Ah-Ray-Roh-Rah) gives a sublime first impression- the sweeping views as you make it past the famous lighthouse at Cape Reinga, walking down a jagged staircase that lines the bluff to reveal a sweeping ocean…",
+            //         tnail: "http://comforttheory.staging.wpengine.com/wp-content/uploads/2015/11/image-3.jpg",
+            //         lat: -45.54547200000001, 
+            //         lng: 167.935174
+            //     }
+            // ];
 
             function initMap() {
               var styledMap = new google.maps.StyledMapType(styles,

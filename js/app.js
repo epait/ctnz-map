@@ -205,10 +205,10 @@ function initMap() {
   // generate markers
   var markerImage = {
   	url: rootURL + "assets/img/ct-pin.png",
-  	size: new google.maps.Size(68,90),
+  	size: new google.maps.Size(128,128),
   	origin: new google.maps.Point(0,0),
-  	anchor: new google.maps.Point(18,45),
-  	scaledSize: new google.maps.Size(34,45)
+  	anchor: new google.maps.Point(23,45),
+  	scaledSize: new google.maps.Size(45,45)
   };
 
   for (i = 0; i < stories.length; i++) {

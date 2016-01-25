@@ -235,12 +235,13 @@ function initStoryPopover(map, marker, heading, excerpt, tnail) {
 
 	document.getElementById('map').innerHTML += contentString;
 
-	marker.addListener('mouseover', function() {
+	marker.addListener('click', function() {
 		hideClass('popoverWrapper');
 		var popover = document.getElementById(heading.split(' ').join('-'));
 		popover.style.left = '15%';
 		popover.style.top = '50px';
 		popover.style.display = 'block';
+		map.panTo(marker.getPosition());
 	});
 }
 

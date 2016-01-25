@@ -991,7 +991,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangawhai Heads footpaths</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1003,7 +1003,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangawhai footpath</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1015,7 +1015,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Black Swamp Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1027,7 +1027,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Pacific Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1039,7 +1039,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangawhai Coast Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1051,7 +1051,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Te Arai Point Walkway</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1063,7 +1063,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Pakiri Beach</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1075,7 +1075,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Pakiri River Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1087,7 +1087,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Te Hikoi O Te Kiri (Mt Tamahunga)</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1099,7 +1099,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Matakana Valley Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1111,7 +1111,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tamahunga - Govan Wilson Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1123,7 +1123,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Govan Wilson Rd - Dome Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1135,7 +1135,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Dome - Moirs Hill Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1147,7 +1147,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Arthur Dunn Bush Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1159,7 +1159,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Puhoi Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1171,7 +1171,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Puhoi - Wenderholm (canoe)</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1183,7 +1183,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wenderholm Cliff Walkway</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1195,7 +1195,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Waiwera - Orewa Coast</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1207,7 +1207,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Orewa River Walkway</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1219,7 +1219,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Silverdale Footpaths</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1231,7 +1231,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tavern Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1243,7 +1243,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Forge Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1255,7 +1255,7 @@
 		</Placemark>
 		<Placemark>
 			<name>East Coast Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1267,7 +1267,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Spur Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1279,7 +1279,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Duck Creek Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1291,7 +1291,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Okura Bush Walkway</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1303,7 +1303,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Okura Estuary Crossing</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1315,7 +1315,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Long Bay Coastal Walk</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1327,7 +1327,7 @@
 		</Placemark>
 		<Placemark>
 			<name>North Shore City Coastal Walk</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1339,7 +1339,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Devonport Ferry crossing</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1351,7 +1351,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Auckland City Coast to Coast Walk</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1363,7 +1363,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Old Mangere Bridge</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1375,7 +1375,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Manukau Harbour Foreshore Walk</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1387,7 +1387,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Ambury Park</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1399,7 +1399,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Watercare Coastal Walk</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1411,7 +1411,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Ihumatao Quarry Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1423,7 +1423,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Oruarangi Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1435,7 +1435,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Ihumatao Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1447,7 +1447,7 @@
 		</Placemark>
 		<Placemark>
 			<name>George Bolt Memorial Drive</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1459,7 +1459,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tom Pearce Drive</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1471,7 +1471,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Puhinui Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1483,7 +1483,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Prices Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1495,7 +1495,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Puhinui Creek Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1507,7 +1507,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Aerovista Place</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1519,7 +1519,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mc Laughlins Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1531,7 +1531,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Vogler Drive</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1543,7 +1543,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Roscommon Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1555,7 +1555,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wiri Station Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1567,7 +1567,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Puhunui Reserve Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1579,7 +1579,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Kerrs Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1591,7 +1591,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Great South Road Papatoetoe</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1603,7 +1603,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Puhunui Reserve</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1615,7 +1615,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Totara Park Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1627,7 +1627,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Hill Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1639,7 +1639,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Stratford Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1651,7 +1651,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Ranfurly Road Manukau</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1663,7 +1663,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Alfriston Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1675,7 +1675,7 @@
 		</Placemark>
 		<Placemark>
 			<name>BrookbyRoad</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1687,7 +1687,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Twilight Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1699,7 +1699,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Kimptons Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1711,7 +1711,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Kimptons Road Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1723,7 +1723,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Thorpes Quarry Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1735,7 +1735,7 @@
 		</Placemark>
 		<Placemark>
 			<name>North Road Clevedon</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1747,7 +1747,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Clevedon Kawakawa Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1759,7 +1759,7 @@
 		</Placemark>
 		<Placemark>
 			<name>McNichol Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1771,7 +1771,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wairoa River Route</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1783,7 +1783,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Cossey Access Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1795,7 +1795,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wairoa Cosseys Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1807,7 +1807,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wairoa Loop Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1819,7 +1819,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Lower Mangatawhiri Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1831,7 +1831,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangatawhiri Forest Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1843,7 +1843,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Lyons Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1855,7 +1855,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangatawhiri Stopbank</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1867,7 +1867,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fish and Game Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1879,7 +1879,7 @@
 		</Placemark>
 		<Placemark>
 			<name>McIntyre Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1891,7 +1891,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Great South Road Mercer</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1903,7 +1903,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Koheroa Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1915,7 +1915,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Skeet Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1927,7 +1927,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Whangamarino Historic Walk</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1939,7 +1939,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Oram Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1951,7 +1951,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Taniwha Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1963,7 +1963,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Waikato Gorge Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1975,7 +1975,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Huntly Riverbank Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1987,7 +1987,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Huntly footpath</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -1999,7 +1999,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Riverview Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2011,7 +2011,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Parker Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2023,7 +2023,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Kauri Loop Walk- Hakarimata</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2035,7 +2035,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Hakarimata 1- Gas Line Nth To Kauri Loop</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2047,7 +2047,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Hakarimata 2- Gas Line South To Summit</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2059,7 +2059,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Waterworks Walk</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2071,7 +2071,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Brownlee Avenue</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2083,7 +2083,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Hakarimata Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2095,7 +2095,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Waingaro Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2107,7 +2107,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Lower Waikato Esplanade</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2119,7 +2119,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Belt Street</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2131,7 +2131,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Great South Road Horitiu</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2143,7 +2143,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Washer Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2155,7 +2155,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Horotiu Bridge Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2167,7 +2167,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Waikato River Cycleway</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2179,7 +2179,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Meadowbank Lane</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2191,7 +2191,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Pukete Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2203,7 +2203,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Riverside Walk</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2215,7 +2215,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Riverside Path</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2227,7 +2227,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Claudelands - Whitawhiriwhiri Stream</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2239,7 +2239,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wallace Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2251,7 +2251,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Taitua Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2263,7 +2263,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Odea Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2275,7 +2275,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Odea Road extension</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2287,7 +2287,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Walsh Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2299,7 +2299,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Kakaramea Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2311,7 +2311,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Whatawhata Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2323,7 +2323,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Waipa River Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2335,7 +2335,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Old Mountain Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2347,7 +2347,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Karamea Walkway</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2359,7 +2359,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Limeworks Loop Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2371,7 +2371,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Nikau Walk</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2383,7 +2383,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tahuanui 1</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2395,7 +2395,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tahuanui 2</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2407,7 +2407,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tirohunga 4</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2419,7 +2419,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tirohunga 4</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2431,7 +2431,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Hihikiwi Two</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2443,7 +2443,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Hihikiwi One</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2455,7 +2455,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Pirongia West Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2467,7 +2467,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Te Rauamoa Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2479,7 +2479,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Kaimango Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2491,7 +2491,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Gayne Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2503,7 +2503,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mahoe Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2515,7 +2515,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Oamaru Stream Scenic Reserve Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2527,7 +2527,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Waitomo Forest Access Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2539,7 +2539,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Orongo Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2551,7 +2551,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Te Anga Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2563,7 +2563,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fullerton Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2575,7 +2575,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Te Kooti Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2587,7 +2587,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Te Kuiti footpath</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2599,7 +2599,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangaokewa Reserve Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2611,7 +2611,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangaokewa River Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2623,7 +2623,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangaokewa North Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2635,7 +2635,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangaokewa Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2647,7 +2647,7 @@
 		</Placemark>
 		<Placemark>
 			<name>SH 30 and Mangokewa Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2659,7 +2659,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Maraeroa Road</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2671,7 +2671,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Pureora Timber Trail</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2683,7 +2683,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Toi Toi Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2695,7 +2695,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Hauhungaroa Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2707,7 +2707,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Taumarunui Roads</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2719,7 +2719,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Main South Highway 4</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2731,7 +2731,7 @@
 		</Placemark>
 		<Placemark>
 			<name>42 Traverse Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2743,7 +2743,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Waione/Cokers Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2755,7 +2755,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Access Road No 3</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2767,7 +2767,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Te Porere Redoubt Track</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2779,7 +2779,7 @@
 		</Placemark>
 		<Placemark>
 			<name>State Highway 47</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2791,7 +2791,7 @@
 		</Placemark>
 		<Placemark>
 			<name>State Highway 46</name>
-			<styleUrl>#past</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2803,7 +2803,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tongariro Crossing</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2815,7 +2815,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangatepopo Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2827,7 +2827,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Taranaki Falls Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2839,7 +2839,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Whakpapa Village</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2851,7 +2851,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Upper Whakapanui Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2863,7 +2863,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Lower Silica Falls Walk</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2875,7 +2875,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Whakapapaiti Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2887,7 +2887,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangahua Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2899,7 +2899,7 @@
 		</Placemark>
 		<Placemark>
 			<name>SH 47 - National Park</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2911,7 +2911,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Carroll Street</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2923,7 +2923,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fisher Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2935,7 +2935,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Kurua Road</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2947,7 +2947,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Upper Retaruke Road</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2959,7 +2959,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Oio - Retaruke Road</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2971,7 +2971,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mangapurua Road</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2983,7 +2983,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Bridge to Nowhere Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -2995,7 +2995,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Whanganui River</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -3007,7 +3007,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Whanganui River (canoe)</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -3019,7 +3019,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Anzac Parade</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -3031,7 +3031,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Puketi Drive</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -3043,7 +3043,7 @@
 		</Placemark>
 		<Placemark>
 			<name>SH3 Wanganui</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#future</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>

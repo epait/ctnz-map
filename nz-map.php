@@ -26,7 +26,6 @@
                 height: 400px;
 
                 background: #ffffff;
-                /*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);*/
             }
 
             .custom-iw {
@@ -40,8 +39,6 @@
                left: 0 !important;
                background-color: #fff;
                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-               /*border: 1px solid rgba(72, 181, 233, 0.6);*/
-               /*border-radius: 2px 2px 0 0;*/
             }
 
             .popoverTnail {
@@ -103,10 +100,6 @@
             <?php endwhile; ?>
             <?php echo ']; </script>' ?>  
         <?php endif; ?>
-
-        <!-- <?php echo '<script>' ?>
-        <?php echo 'var mapOrigin = ', the_field('team_location'), ';' ?>
-        <?php echo '</script>' ?> -->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>

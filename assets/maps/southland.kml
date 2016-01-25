@@ -4699,7 +4699,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Timaru Creek Track WDC</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4711,7 +4711,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Timaru Creek Track QLDC</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4723,7 +4723,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Brest Hill</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4735,7 +4735,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Lake Hawea Foreshore Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4747,7 +4747,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Hawea Riverside Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4759,7 +4759,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Clutha Riverside Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4771,7 +4771,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wanaka Foreshore Bike Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4783,7 +4783,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Roys Bay Track Wanaka Foreshore</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4795,7 +4795,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wanaka Lake Walkway</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4807,7 +4807,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Millenium Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4819,7 +4819,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Glendhu Bay lake edge</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4831,7 +4831,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Motatapu Road</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4843,7 +4843,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Motatapu Route</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4855,7 +4855,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Arrow River 4WD Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4867,7 +4867,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Big Hill Walkway</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4879,7 +4879,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Arrowtown footpaths</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4891,7 +4891,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Millbrook Walkway</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4903,7 +4903,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Speargrass Flat Road</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4915,7 +4915,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Slope Hill Road</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4927,7 +4927,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Lake Hayes Walkway</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4939,7 +4939,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Shotover River Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4951,7 +4951,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Frankton Walkway</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4963,7 +4963,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Queenstown Waterfront</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4975,7 +4975,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Lake Wakatipu crossing</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4987,7 +4987,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Greenstone Track</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -4999,7 +4999,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mavora Walkway</name>
-			<styleUrl>#current</styleUrl>
+			<styleUrl>#past</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5011,7 +5011,7 @@
 		</Placemark>
 		<Placemark>
 			<name>South Mavora Lake and River Walkway</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5023,7 +5023,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mararora River Route</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5035,7 +5035,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Princhester Road Marora</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5047,7 +5047,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Princhester Saddle Track</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5059,7 +5059,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Takitimu Forest Route</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5071,7 +5071,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wairaki Track</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5083,7 +5083,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Telford Track</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5095,7 +5095,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Telford Burn Track</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5107,7 +5107,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wairaki River Vehicle Track</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5119,7 +5119,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wairaki River Stock Bridge</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5131,7 +5131,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mt Linton Station Internal Road</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5143,7 +5143,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Linton Station Birchwood Exit</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5155,7 +5155,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Orauea Stream Route</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5167,7 +5167,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Woodlaw Forest</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5179,7 +5179,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Upper Scotts Gap Road</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5191,7 +5191,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Hewitt Road</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5203,7 +5203,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Island Block Track</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5215,7 +5215,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Pinevale Access</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5227,7 +5227,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Gill Road</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5239,7 +5239,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Bald Hill Longwood Forest</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5251,7 +5251,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Longwood Route</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5263,7 +5263,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Turnbulls Tramping Track</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5275,7 +5275,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Cascade Road</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5287,7 +5287,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Water Race Track</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5299,7 +5299,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Long Hilly Connection</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5311,7 +5311,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Round Hill Road</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5323,7 +5323,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Orepuki Riverton Highway SH 99</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5335,7 +5335,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Colac Bay Road</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5347,7 +5347,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Colac Foreshore Road</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5359,7 +5359,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Colac Bay Beach</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5371,7 +5371,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tihaka Beach Road</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5383,7 +5383,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Colac Beach</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5395,7 +5395,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Mores Reserve</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5407,7 +5407,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Riverton footpath</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5419,7 +5419,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Oreti Beach SDC</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5431,7 +5431,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Oreti Beach ICC</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5443,7 +5443,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Dunns Road footpath</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5455,7 +5455,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Invercargill footpaths</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5467,7 +5467,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Stead Street Wharf Walkway</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5479,7 +5479,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Estuary Walkway Sec 1 2</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5491,7 +5491,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Bluff Highway</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>
@@ -5503,7 +5503,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Foveaux Walkway</name>
-			<styleUrl>#future</styleUrl>
+			<styleUrl>#current</styleUrl>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>

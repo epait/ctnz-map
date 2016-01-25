@@ -78,7 +78,7 @@
             <?php endwhile; ?>
         <?php endif; ?>
 
-        <?php query_posts('posts_per_page=5&cat=1'); ?>
+        <?php query_posts('posts_per_page=5&cat=39'); ?>
         <?php if (have_posts()) : ?>
             <?php echo '<script> var stories = ['?>
             <?php while (have_posts()) : the_post(); ?>
@@ -94,8 +94,9 @@
                 <?php echo 'tnail: "', $post_thumbnail_url, '",' ?>
                 <?php echo 'heading: "', the_title(), '",' ?> 
                 <?php echo 'excerpt: "', $myExcerpt, '",' ?>
-                <?php echo 'lat: 0,' ?>
-                <?php echo 'lng: 0,' ?>
+                <?php echo 'lat: ', the_field('latitude'), ',' ?>
+                <?php echo 'lng: ', the_field('longitude'), ',' ?>
+                <?php echo 'url: "', the_permalink(), '"' ?>
                 <?php echo '},' ?>
             <?php endwhile; ?>
             <?php echo ']; </script>' ?>  
@@ -271,16 +272,16 @@
                     icon: markerImage
                 });
 
-                createInfoWindow(map, marker, infowindow, stories[i].heading, stories[i].excerpt, stories[i].tnail);
+                createInfoWindow(map, marker, infowindow, stories[i].heading, stories[i].excerpt, stories[i].tnail, stories[i].url);
               }
             }
 
-            function createInfoWindow(map, marker, infowindow, heading, excerpt, tnail) {
+            function createInfoWindow(map, marker, infowindow, heading, excerpt, tnail, url) {
                 var contentString = '<div class="popoverWrapper" id="' + heading.split(' ').join('-') + '">' +
                     '<div class="popoverTnail"><img src="' + tnail + '"></div>' +
                     '<div class="popoverHeading">' + heading + '</div>' +
                     '<div class="popoverExcerpt">' + excerpt.substring(0,250) + '...</div>' +
-                    '<div class="popoverReadMore"><a href="">Read More</a></div>' +
+                    '<div class="popoverReadMore"><a href="' + url + '" target="_blank">Read More</a></div>' +
                     '</div>'    
 
                 marker.addListener('mouseover', function() {

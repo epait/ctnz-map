@@ -104,7 +104,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script>
-            var rootURL = 'http://www.ericpait.com/clients/nz-map/';
+            var rootURL = 'http://comforttheory.staging.wpengine.com/wp-content/themes/salient-child/';
 
             var styles = [
               {
@@ -156,61 +156,61 @@
             var regions = [
                 {
                     region: "Northland",
-                    mapFile: "",
+                    mapFile: "northland.kmz",
                     lat: -35.312818, 
                     lng: 174.120425
                 },
                 {
                     region: "Auckland",
-                    mapFile: "",
+                    mapFile: "auckland.kmz",
                     lat: -36.661662, 
                     lng: 174.729893
                 },
                 {
                     region: "Waikato/King Country",
-                    mapFile: "",
+                    mapFile: "waikato.kmz",
                     lat: -38.342415, 
                     lng: 175.180517
                 },
                 {
                     region: "Whanganui",
-                    mapFile: "",
+                    mapFile: "whanganui.kmz",
                     lat: -39.480183,
                     lng: 175.042876,
                 },
                 {
                     region: "Manawatu",
-                    mapFile: "",
+                    mapFile: "manawatu.kmz",
                     lat: -40.347577, 
                     lng: 175.661774
                 },
                 {
                     region: "Wellington",
-                    mapFile: "",
+                    mapFile: "wellington.kmz",
                     lat: -40.877625, 
                     lng: 175.132276
                 },
                 {
                     region: "Nelson/Marlborough",
-                    mapFile: "",
+                    mapFile: "nelson.kmz",
                     lat: -41.158708, 
                     lng: 174.811306
                 },
                 {
                     region: "Canterbury",
-                    mapFile: "",
+                    mapFile: "canterbury.kmz",
                     lat: -43.318859, 
                     lng: 171.385248
                 },
                 {
                     region: "Otago",
-                    mapFile: "",
+                    mapFile: "otago.kmz",
                     lat: -44.672289, 
                     lng: 169.010526
                 },
                 {
                     region: "Southland",
-                    mapFile: "",
+                    mapFile: "southland.kmz",
                     lat: -45.54547200000001, 
                     lng: 167.935174
                 }
@@ -240,7 +240,7 @@
               });
 
               var ctaLayer = new google.maps.KmlLayer({
-                url: rootURL + 'assets/maps/whanganui-map.kmz',
+                url: rootURL + '/kmz/' + regions[regionIndex].mapFile,
                 suppressInfoWindows: true,
                 preserveViewport: true,
                 map: map
@@ -252,7 +252,7 @@
 
               // generate markers
               var markerImage = {
-                url: rootURL + "assets/img/ct-pin.png",
+                url: rootURL + "ct-pin.png",
                 size: new google.maps.Size(128,128),
                 origin: new google.maps.Point(0,0),
                 anchor: new google.maps.Point(23,45),

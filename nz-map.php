@@ -19,7 +19,7 @@
 
             html, body { height: 100%; margin: 0; padding: 0; font-family: "Open Sans";}
 
-            #map { height: 1000px; }
+            #map { height: 750px; }
 
             .popoverWrapper {
                 width: 350px;
@@ -101,11 +101,13 @@
             <?php endwhile; ?>
             <?php echo ']; </script>' ?>  
         <?php endif; ?>
+        <?php $themeURI = get_template_directory_uri (); ?>
+        <?php echo '<script> var themeURL = "', $themeURI, '"; </script>' ?>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script>
-            var rootURL = 'http://comforttheory.staging.wpengine.com/wp-content/themes/salient-child/';
+            var rootURL = themeURL + '-child/';
 
             var styles = [
               {
@@ -227,7 +229,7 @@
               var currentLng = regions[regionIndex].lng;
 
               var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 7,
+                zoom: 8,
                 center: {lat: currentLat, lng: currentLng},
                 scrollwheel: false,
                 streetViewControl: false,
@@ -333,8 +335,14 @@
 
                    var iwCloseBtn = iwOuter.next();
 
-                   // hide close button
-                   iwCloseBtn.hide();
+                   // style close button
+                   iwCloseBtn.css({
+                       'width' : '20px',
+                       'height' : '20px',
+                       'border-radius' : '10px',
+                       'background-color' : 'white' 
+                   });
+                   iwCloseBtn.children(':nth-child(1)').css('margin', '3.3px');
                 });
             }
 

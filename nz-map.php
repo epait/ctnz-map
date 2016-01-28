@@ -72,16 +72,20 @@
     </head>
     <body>
         <div id="map"></div>
+
+        <!-- convert team location to usable js -->
         <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
                 <?php echo '<script> var regionIndex = ', the_field('team_location'), ';</script>' ?>
             <?php endwhile; ?>
         <?php endif; ?>
 
+        <!-- query posts and create a js object of all data to be used by google maps -->
         <?php query_posts('posts_per_page=5&cat=39'); ?>
         <?php if (have_posts()) : ?>
             <?php echo '<script> var stories = ['?>
             <?php while (have_posts()) : the_post(); ?>
+                <!-- get data required from each post -->
                 <?php
                   $myExcerpt = get_the_excerpt();
                   $tags = array("<p>", "</p>");
@@ -90,6 +94,7 @@
                   $post_thumbnail_id = get_post_thumbnail_id($post->ID);
                   $post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id );
                 ?>
+                <!-- JS object template -->
                 <?php echo '{' ?>
                 <?php echo 'tnail: "', $post_thumbnail_url, '",' ?>
                 <?php echo 'heading: "', the_title(), '",' ?> 
@@ -101,14 +106,18 @@
             <?php endwhile; ?>
             <?php echo ']; </script>' ?>  
         <?php endif; ?>
+
+        <!-- grab theme uri to auto-generate root url for assets -->
         <?php $themeURI = get_template_directory_uri (); ?>
         <?php echo '<script> var themeURL = "', $themeURI, '"; </script>' ?>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script>
+            // root url for assets
             var rootURL = themeURL + '-child/';
 
+            // map styles
             var styles = [
               {
                 featureType: "water",
@@ -156,6 +165,7 @@
               }
             ];
 
+            // regions for recentering the map and changing route file to track progress
             var regions = [
                 {
                     region: "Northland",
@@ -262,10 +272,12 @@
                 scaledSize: new google.maps.Size(45,45)
               };
 
+              // create info window instance
               var infowindow = new google.maps.InfoWindow({
                  content: ' '
               });
 
+              // create markers for each story
               for (i = 0; i < stories.length; i++) {
                 myLatLng = new google.maps.LatLng(stories[i].lat,stories[i].lng);
                 var marker = new google.maps.Marker({
@@ -330,8 +342,6 @@
                    iwBackground.children(':nth-child(3)').hide();
                    iwBackground.children(':nth-child(1)').hide();
 
-                   // Moves the infowindow down.
-                   // iwOuter.parent().parent().css({top: '225px'});
 
                    var iwCloseBtn = iwOuter.next();
 

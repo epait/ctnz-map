@@ -172,60 +172,70 @@
                 {
                     region: "Northland",
                     mapFile: "northland.kmz",
+                    mobileMap: "",
                     lat: -35.312818, 
                     lng: 174.120425
                 },
                 {
                     region: "Auckland",
                     mapFile: "auckland.kmz",
+                    mobileMap: "auckland.png",
                     lat: -36.661662, 
                     lng: 174.729893
                 },
                 {
                     region: "Waikato/King Country",
                     mapFile: "waikato.kmz",
+                    mobileMap: "waikato.png",
                     lat: -38.342415, 
                     lng: 175.180517
                 },
                 {
                     region: "Whanganui",
                     mapFile: "whanganui.kmz",
+                    mobileMap: "whanganui.png",
                     lat: -39.480183,
                     lng: 175.042876,
                 },
                 {
                     region: "Manawatu",
                     mapFile: "manawatu.kmz",
+                    mobileMap: "manawatu.png",
                     lat: -40.347577, 
                     lng: 175.661774
                 },
                 {
                     region: "Wellington",
                     mapFile: "wellington.kmz",
+                    mobileMap: "wellington.png",
                     lat: -40.877625, 
                     lng: 175.132276
                 },
                 {
                     region: "Nelson/Marlborough",
                     mapFile: "nelson.kmz",
+                    mobileMap: "nelson.png",
                     lat: -41.158708, 
                     lng: 174.811306
                 },
                 {
                     region: "Canterbury",
                     mapFile: "canterbury.kmz",
+                    mobileMap: "canterbury.png",
                     lat: -43.318859, 
                     lng: 171.385248
                 },
                 {
                     region: "Otago",
                     mapFile: "otago.kmz",
+                    mobileMap: "otago.png",
                     lat: -44.672289, 
                     lng: 169.010526
                 },
                 {
                     region: "Southland",
                     mapFile: "southland.kmz",
+                    mobileMap: "southland.png",
                     lat: -45.54547200000001, 
                     lng: 167.935174
                 }
@@ -294,8 +304,8 @@
               initMobileMap('map-mobile');
             }
 
-            function initMobileMap(container, location) {
-              $('#' + container).append("<img id='map-mobile-img' src=''>");
+            function initMobileMap(container) {
+              $('#' + container).append("<img id='map-mobile-img' src='" + rootURL + 'mobile-maps/' + regions[regionIndex].mobileMap + "'>");
             }
 
             function createInfoWindow(map, marker, infowindow, heading, excerpt, tnail, url) {

@@ -21,6 +21,24 @@
 
             #map { height: 750px; }
 
+            #map-mobile { 
+              display: none;
+              justify-content: center;
+              height: 750px; /* or other desired height */
+              overflow: hidden; 
+            }
+
+            #map-mobile-img {
+              flex: none;
+              height: 750px;
+            }
+
+            @media only screen and (max-width: 1024px) {
+              #map { display: none; }
+
+              #map-mobile { display: flex; }
+            }
+
             .popoverWrapper {
                 width: 350px;
                 height: 400px;
@@ -167,12 +185,15 @@
               }
             ];
 
+            // init stories
+            var stories = [];
+
             // regions for recentering the map and changing route file to track progress
             var regions = [
                 {
                     region: "Northland",
                     mapFile: "northland.kmz",
-                    mobileMap: "",
+                    mobileMap: "northland.png",
                     lat: -35.312818, 
                     lng: 174.120425
                 },
@@ -222,7 +243,7 @@
                     region: "Canterbury",
                     mapFile: "canterbury.kmz",
                     mobileMap: "canterbury.png",
-                    lat: -43.318859, 
+                    lat: -43.118859, 
                     lng: 171.385248
                 },
                 {

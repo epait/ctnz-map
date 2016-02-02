@@ -73,6 +73,7 @@
     </head>
     <body>
         <div id="map"></div>
+        <div id="map-mobile"></div>
 
         <!-- convert team location to usable js -->
         <?php if (have_posts()) : ?>

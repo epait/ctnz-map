@@ -290,6 +290,12 @@
 
                 createInfoWindow(map, marker, infowindow, stories[i].heading, stories[i].excerpt, stories[i].tnail, stories[i].url);
               }
+
+              initMobileMap('map-mobile');
+            }
+
+            function initMobileMap(container, location) {
+              $('#' + container).append("<img id='map-mobile-img' src=''>");
             }
 
             function createInfoWindow(map, marker, infowindow, heading, excerpt, tnail, url) {

@@ -30,11 +30,12 @@
 
             .custom-iw {
                 width: 350px !important;
-                height: 400px !important;
+                height: 350px !important;
             }
 
             .gm-style-iw {
                width: 350px !important;
+               height: 350px !important;
                top: 0 !important;
                left: 0 !important;
                background-color: #fff;
@@ -294,7 +295,7 @@
                 var contentString = '<div class="popoverWrapper" id="' + heading.split(' ').join('-') + '">' +
                     '<div class="popoverTnail"><img src="' + tnail + '"></div>' +
                     '<div class="popoverHeading">' + heading + '</div>' +
-                    '<div class="popoverExcerpt">' + excerpt.substring(0,250) + '...</div>' +
+                    '<div class="popoverExcerpt">' + excerpt.substring(0,100) + '...</div>' +
                     '<div class="popoverReadMore"><a href="' + url + '" target="_blank">Read More</a></div>' +
                     '</div>'    
 
@@ -333,10 +334,10 @@
                    iwBackground.children(':nth-child(4)').css({'display' : 'none'});
 
                    // Moves the infowindow to the right.
-                   iwOuter.parent().parent().css({left: '-260px'});
+                   iwOuter.parent().parent().css({left: '-250px'});
 
                    // Moves the infowindow down.
-                   iwOuter.parent().parent().css({top: '240px'});
+                   iwOuter.parent().parent().css({top: '200px'});
 
                    // Hides arrow
                    iwBackground.children(':nth-child(3)').hide();

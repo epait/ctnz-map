@@ -101,26 +101,28 @@
         <?php endif; ?>
 
         <!-- query posts and create a js object of all data to be used by google maps -->
-        <?php query_posts('posts_per_page=5&cat=39'); ?>
+        <?php query_posts('posts_per_page=100&cat=39'); ?>
         <?php if (have_posts()) : ?>
             <?php echo '<script> var stories = ['?>
             <?php while (have_posts()) : the_post(); ?>
-                <!-- get data required from each post -->
                 <?php
                   $myExcerpt = get_the_excerpt();
                   $tags = array("<p>", "</p>");
-                  $myExcerpt = str_replace($tags, "", $myExcerpt);
+                  $myExcerpt = htmlspecialchars(str_replace($tags, "", $myExcerpt));
 
                   $post_thumbnail_id = get_post_thumbnail_id($post->ID);
                   $post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id );
                 ?>
-                <!-- JS object template -->
                 <?php echo '{' ?>
                 <?php echo 'tnail: "', $post_thumbnail_url, '",' ?>
                 <?php echo 'heading: "', the_title(), '",' ?> 
                 <?php echo 'excerpt: "', $myExcerpt, '",' ?>
-                <?php echo 'lat: ', the_field('latitude'), ',' ?>
-                <?php echo 'lng: ', the_field('longitude'), ',' ?>
+                <?php if( get_field('latitude') ): ?>
+                  <?php echo 'lat: ', the_field('latitude'), ',' ?>
+                <?php endif; ?>
+                <?php if( get_field('longitude') ): ?>
+                  <?php echo 'lng: ', the_field('longitude'), ',' ?>
+                <?php endif; ?>
                 <?php echo 'url: "', the_permalink(), '"' ?>
                 <?php echo '},' ?>
             <?php endwhile; ?>
@@ -136,6 +138,9 @@
         <script>
             // root url for assets
             var rootURL = themeURL + '-child/';
+
+            // init stories
+            // var stories = [];
 
             // map styles
             var styles = [
@@ -184,9 +189,6 @@
                 ]
               }
             ];
-
-            // init stories
-            var stories = [];
 
             // regions for recentering the map and changing route file to track progress
             var regions = [

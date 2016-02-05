@@ -1,0 +1,24 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+#route-map-embed {
+	width: 100%;
+	height: 750px;
+}
+
+@media only screen and (max-width: 1024px) {
+	#route-map-embed {
+		height: auto;
+	}
+}
+
+
+
+

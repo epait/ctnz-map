@@ -343,6 +343,8 @@
                 marker.addListener('mouseover', function() {
                     infowindow.setContent(contentString);
                     infowindow.open(map, marker);
+                    var container = $('.popoverExcerpt');
+                    container.html(container.text());
                 });
 
                 // marker.addListener('mouseout', function() {
